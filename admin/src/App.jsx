@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Login from "./components/Login";
 
-export const backendUrl = "https://e-commerce-bike-store-backend.onrender.com";
+export const backendUrl = import.meta.env.VITE_BACKEND_URL;
 export const currency = "$";
 
 const App = () => {
